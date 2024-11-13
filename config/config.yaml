@@ -3,4 +3,4 @@
   http-server:
     adress: "localhost:8080"
     timeout: "4s"
-    iddle-timeout: "60s"
+    idle-timeout: "60s"
