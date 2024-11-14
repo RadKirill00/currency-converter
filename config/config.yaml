@@ -1,6 +1,6 @@
-  env: "local"
-  storage-path: "./storage/storage.db"
-  http-server:
-    adress: "localhost:8080"
-    timeout: "4s"
-    idle-timeout: "60s"
+env: "local"
+storage-path: "./storage/storage.db"
+http-server:
+  address: "localhost:8080"
+  timeout: "4s"
+  idle-timeout: "60s"
