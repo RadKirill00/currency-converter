@@ -9,11 +9,11 @@ import (
 
 
 type Config struct {
-	Env         string        `envconfig:"ENV" default: "local"`
-	StoragePath string        `envconfig:"STORAGE_PATH" default: "./storage/storage.db"`
-	Address     string        `envconfig:"ADDRES" default: "localhost:8080"`
-	Timeout     time.Duration `envconfig:"TIMEOUT" default: "4s"`
-	IdleTimeout time.Duration `envconfig:"IDLE_TIMEOUT" default: "60s"`
+	Env         string        `envconfig:"ENV" default:"local"`
+	StoragePath string        `envconfig:"STORAGE_PATH" default:"./storage/storage.db"`
+	Address     string        `envconfig:"ADDRESS" default:"localhost:8080"`
+	Timeout     time.Duration `envconfig:"TIMEOUT" default:"4s"`
+	IdleTimeout time.Duration `envconfig:"IDLE_TIMEOUT" default:"60s"`
 }
 
 
