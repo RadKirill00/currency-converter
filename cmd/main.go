@@ -1,5 +1,7 @@
 package main
 
+
+// step 1: create config file 
 import (
 	"currency-converter/internal/config"
 	"fmt"
